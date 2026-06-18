@@ -7,18 +7,18 @@ namespace AutoClicker.Utils
     public static class Constants
     {
         public const string MAIN_WINDOW_TITLE_DEFAULT = "AutoClicker";
-        public const string MAIN_WINDOW_TITLE_RUNNING = " - Running...";
-        public const string MAIN_WINDOW_START_BUTTON_CONTENT = "Start";
-        public const string MAIN_WINDOW_TOGGLE_BUTTON_CONTENT = "Toggle";
-        public const string MAIN_WINDOW_STOP_BUTTON_CONTENT = "Stop";
+        public const string MAIN_WINDOW_TITLE_RUNNING = " - 正在运行";
+        public const string MAIN_WINDOW_START_BUTTON_CONTENT = "开始";
+        public const string MAIN_WINDOW_TOGGLE_BUTTON_CONTENT = "切换";
+        public const string MAIN_WINDOW_STOP_BUTTON_CONTENT = "停止";
 
-        public const string ABOUT_WINDOW_TITLE = "About";
-        public const string SETTINGS_WINDOW_TITLE = "Hotkey Settings";
-        public const string CAPTURE_MOUSE_COORDINATES_WINDOW_TITLE = "Capture Mouse Coordinates";
+        public const string ABOUT_WINDOW_TITLE = "关于";
+        public const string SETTINGS_WINDOW_TITLE = "热键设置";
+        public const string CAPTURE_MOUSE_COORDINATES_WINDOW_TITLE = "捕捉鼠标坐标";
 
-        public const string SYSTEM_TRAY_MENU_MINIMIZE = "Minimize to tray";
-        public const string SYSTEM_TRAY_MENU_SHOW = "Show AutoClicker";
-        public const string SYSTEM_TRAY_MENU_EXIT = "Exit";
+        public const string SYSTEM_TRAY_MENU_MINIMIZE = "最小化到托盘";
+        public const string SYSTEM_TRAY_MENU_SHOW = "打开主窗口";
+        public const string SYSTEM_TRAY_MENU_EXIT = "退出";
 
         public const string RESOURCES_DIRECTORY = "Resources";
         public const string RUNNING_ICON_RESOURCE_PATH = RESOURCES_DIRECTORY + "\\Icons\\icon_running.ico";

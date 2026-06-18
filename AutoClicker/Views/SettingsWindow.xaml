@@ -28,7 +28,7 @@
         </Grid.ColumnDefinitions>
 
         <Label Grid.Row="0" Grid.Column="0" Margin="5, 5, 5, 5"
-               Content="Start Hotkey: "/>
+               Content="开始热键 "/>
         <TextBox Name="startKeyTextBox"
                  Grid.Row="0" Grid.Column="1" Margin="5, 5, 5, 5"
                  Text="{Binding Path=SelectedStartKey.DisplayName, Mode=OneWay}"
@@ -37,7 +37,7 @@
                  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
         <Label Grid.Row="1" Grid.Column="0"  Margin="5, 5, 5, 5"
-               Content="Stop Hotkey: "/>
+               Content="停止热键"/>
         <TextBox Name="stopKeyTextBox"
                  Grid.Row="1" Grid.Column="1" Margin="5, 5, 5, 5"
                  Text="{Binding Path=SelectedStopKey.DisplayName, Mode=OneWay}"
@@ -46,7 +46,7 @@
                  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
         <Label Grid.Row="2" Grid.Column="0"  Margin="5, 5, 5, 5"
-               Content="Toggle Hotkey: "/>
+               Content="切换热键"/>
         <TextBox Name="toggleKeyTextBox"
                  Grid.Row="2" Grid.Column="1" Margin="5, 5, 5, 5"
                  Text="{Binding Path=SelectedToggleKey.DisplayName, Mode=OneWay}"
@@ -55,19 +55,19 @@
                  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
         <CheckBox Name="includeModifiersCheckBox"
-                  Grid.Row="3" Grid.Column="0" Margin="5, 5, 5, 5"
+                  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="5, 5, 5, 5"
                   VerticalAlignment="Center"
-                  Content="Include modifiers"
+                  Content="允许使用热键修饰符(Shift, Ctrl, Alt...)"
                   IsChecked="{Binding Path=IncludeModifiers, Mode=OneWay}"
                   Checked="IncludeModifiersCheckBox_CheckedChanged"
                   Unchecked="IncludeModifiersCheckBox_CheckedChanged"/>
 
         <Button Name="saveSettingsButton"
-                Content="Save" Grid.Row="4" Grid.Column="0" Margin="5, 5, 5, 5"
+                Content="保存" Grid.Row="4" Grid.Column="0" Margin="5, 5, 5, 5"
                 Command="commands:SettingsWindowCommands.Save"/>
 
         <Button Name="resetSettingsButton"
-                Content="Reset" Grid.Row="4" Grid.Column="1" Margin="5, 5, 5, 5"
+                Content="恢复默认" Grid.Row="4" Grid.Column="1" Margin="5, 5, 5, 5"
                 Command="commands:SettingsWindowCommands.Reset"/>
     </Grid>
 </Window>

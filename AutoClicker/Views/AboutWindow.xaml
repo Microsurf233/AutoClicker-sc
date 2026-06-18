@@ -11,6 +11,8 @@
             <LineBreak/>
             <Run Name="AuthorText" Text="Created by Ori Ashual"/>
             <LineBreak/>
+            <Run Text="中文Microsurf233"/>
+            <LineBreak/>
             <LineBreak/>
             <Hyperlink Name="UrlHyperlink" RequestNavigate="Hyperlink_RequestNavigate" ToolTip="GitHub"/>
         </TextBlock>

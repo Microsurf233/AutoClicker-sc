@@ -32,7 +32,7 @@
                     <Label Content="Y:"></Label>
                     <Label Content="120" Name="LabelYCoordinate"></Label>
                 </StackPanel>
-                <Label HorizontalAlignment="Center">(Press Esc to Cancel)</Label>
+                <Label HorizontalAlignment="Center">按ESC取消</Label>
             </StackPanel>
         </DockPanel>
     </Grid>
