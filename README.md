@@ -1,3 +1,7 @@
+*This repo is forked from [AutoClicker](https://github.com/oriash93/AutoClicker), added Simpled Chinese.*
+*该项目为 AutoClicker 添加了简体中文*
+*Original Readme.md is here:*
+
 # AutoClicker
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/oriash93/AutoClicker?style=plastic)
